@@ -22,8 +22,8 @@ function App() {
       lastName: "Gup",
     },
     {
-      firstName: "Kun",
-      lastName: "Lun",
+      firstName: "Pam",
+      lastName: "Pam",
     },
   ];
 
