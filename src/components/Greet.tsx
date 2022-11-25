@@ -5,7 +5,7 @@ type GreetProps = {
 };
 
 export const Greet = (props: GreetProps) => {
-  const { age = 23 } = props;
+  const { age = 23 } = props; // default value 
   return (
     <h1>
       {props.isLoggedin ? `hello ${props.name} of age ${age}` : `Hello user`}

@@ -1,5 +1,3 @@
-import Heading from "./Heading";
-
 type OscarProps = {
   children: React.ReactNode;
 };
