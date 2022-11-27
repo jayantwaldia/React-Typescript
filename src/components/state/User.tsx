@@ -7,7 +7,10 @@ type AuthUser = {
 
 const User = () => {
     const [isLoggedin, setisLoggedin] = useState(false)
-    const [user, setUser] = useState<null | AuthUser>(null)
+    // const [user, setUser] = useState<null | AuthUser>(null)
+    // OR
+    const [user, setUser] = useState({} as AuthUser)
+
     return (
         <>
             <button onClick={() => {
