@@ -14,7 +14,7 @@ type ResetAction = {
     type: 'reset'
 }
 
-type CounterAction = UpdateAction | ResetAction
+type CounterAction = UpdateAction | ResetAction // discriminated unions in TS
 
 
 
