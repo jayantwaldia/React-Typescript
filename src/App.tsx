@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <Greet name="Jayant" isLoggedin={true} />
+      <Greet name="Ligma" isLoggedin={true} />
       <Person name={personName} />
       <PersonList names={nameList} />
       <Status status="success" />
