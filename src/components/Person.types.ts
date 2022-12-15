@@ -3,7 +3,6 @@ export type Name = {
     last: string;
 }
 
-
 export type PersonProps = {
     name: Name
 };

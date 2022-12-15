@@ -48,16 +48,18 @@ function App() {
       </Oscar>
       <br />
       {/* Event Props */}
-      <Button handleClick={(event, id) => {
-        console.log('Button is clicked', event, id)
-        id = id + 1
-      }} />
+      <Button
+        handleClick={(event, id) => {
+          console.log("Button is clicked", event, id);
+          id = id + 1;
+        }}
+      />
       <br />
       <br />
-      <Input value='' handleChange={event => console.log(event)} />
+      <Input value="" handleChange={(event) => console.log(event)} />
       <br />
       <br />
-      <Container styles={{ border: '1px solid red', padding: '1rem' }} />
+      <Container styles={{ border: "1px solid red", padding: "1rem" }} />
       <br />
       <LoggedIn />
       <br />
